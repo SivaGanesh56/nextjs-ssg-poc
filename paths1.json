@@ -1,0 +1,2204 @@
+[
+  {
+    "params": {
+      "slug": "cx-connect-boston"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "sprinklr-community-meetup-amsterdam"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "digital-gaming-entertainment"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "hootsuite"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "socialverse2023"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "top-leaders-cx-strategy"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "sprinklr-community-meetup-munich"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "de-DE/products/customer-service"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "products/customer-service"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/products/customer-service"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/products/customer-service"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/products/customer-service"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/products/customer-service"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/products/customer-service"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/products/customer-service"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/products/customer-service"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/products/customer-service"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "de-DE/products/social-media-management"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "products/social-media-management"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/products/social-media-management"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/products/social-media-management"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/products/social-media-management"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/products/social-media-management"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/products/social-media-management"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/products/social-media-management"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/products/social-media-management"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/products/social-media-management"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "de-DE/customer-engagement"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "customer-engagement"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/customer-engagement"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/customer-engagement"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/customer-engagement"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/customer-engagement"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/customer-engagement"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/customer-engagement"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/customer-engagement"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/customer-engagement"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "cx-connect-sydney"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "cx-connect-sydney-on-demand-recording"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "sprinklr-social-advanced-plan"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "conversational-ai"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/conversational-ai"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/conversational-ai"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "de-DE/conversational-ai"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/conversational-ai"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/conversational-ai"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/conversational-ai"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/conversational-ai"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "en-AU/conversational-ai"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "sprinklr-conversational-ai-a"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "sprinklr-social-advanced-plan-a"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "ar/sprinklr-social-advanced-plan-a"
+    },
+    "locale": "ar"
+  },
+  {
+    "params": {
+      "slug": "product-deepdive-webinar-anz"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "product-deepdive-webinar-na"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "idc-market-note"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "cx-supper-club"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "cx-connect-dubai"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "sprinklr-community-meetup-jakarta"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "de-DE/knowledge-base"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "knowledge-base"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/knowledge-base"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/knowledge-base"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/knowledge-base"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/knowledge-base"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/knowledge-base"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/knowledge-base"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/knowledge-base"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/knowledge-base"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "technology-company-california"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "cx-connect-seattle"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "forrester-ccaas-launch-report"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "automobile"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "de-DE/visual-insights"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "visual-insights"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/visual-insights"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/visual-insights"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/visual-insights"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/visual-insights"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/visual-insights"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/visual-insights"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/visual-insights"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/visual-insights"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "sprinklr-community-meetup-san-francisco"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "sprinklr-community-meetup-atlanta"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "sprinklr-community-meetup-chicago"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "cx-connect-milan"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "it/cx-connect-milan"
+    },
+    "locale": "it"
+  },
+  {
+    "params": {
+      "slug": "industries/technology"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "industries/retail"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "industries/financial-services"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "global-telecommunications-company"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "de-DE/partners"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "partners"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/partners"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/partners"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/partners"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/partners"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/partners"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/partners"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/partners"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/partners"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "cx-connect-delhi"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "contact-center-software"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "sprinklr-community-meetup-bangalore"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "cxm"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "product-deepdive-webinar"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "customer-service-software"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/customer-service-software"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/customer-service-software"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "de-DE/customer-service-software"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/customer-service-software"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/customer-service-software"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/customer-service-software"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/customer-service-software"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "en-AU/customer-service-software"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "emplifi"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "sprinklr-social-advanced-vs-sprout-social"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "cx-connect-madrid"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "es-001/cx-connect-madrid"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "vodafone-germany"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "try"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/try"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "sprinklr-social-advanced-plan-arabic"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "ar/sprinklr-social-advanced-plan-arabic"
+    },
+    "locale": "ar"
+  },
+  {
+    "params": {
+      "slug": "cx-workshop-blake-morgan"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "cx-workshop-colin-shaw"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "industries/banking"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "benchmark-virtual-roundtable"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "link-in-bio"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "governance-and-settings"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "sprinklr-conversational-ai"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "forbes-influential-cmos-2023"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "energy-company-brings-digital-first-approach"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "de-DE/automatic-call-distribution"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "automatic-call-distribution"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/automatic-call-distribution"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/automatic-call-distribution"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/automatic-call-distribution"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/automatic-call-distribution"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/automatic-call-distribution"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/automatic-call-distribution"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/automatic-call-distribution"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/automatic-call-distribution"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "de-DE/case-management"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "case-management"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/case-management"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/case-management"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/case-management"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/case-management"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/case-management"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/case-management"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/case-management"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/case-management"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "de-DE/complaint-management"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "complaint-management"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/complaint-management"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/complaint-management"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/complaint-management"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/complaint-management"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/complaint-management"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/complaint-management"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/complaint-management"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/complaint-management"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "de-DE/competitive-benchmarking"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "competitive-benchmarking"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/competitive-benchmarking"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/competitive-benchmarking"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/competitive-benchmarking"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/competitive-benchmarking"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/competitive-benchmarking"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/competitive-benchmarking"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/competitive-benchmarking"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/competitive-benchmarking"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "de-DE/location-insights"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "location-insights"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/location-insights"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/location-insights"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/location-insights"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/location-insights"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/location-insights"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/location-insights"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/location-insights"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/location-insights"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "de-DE/product-insights"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "product-insights"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/product-insights"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/product-insights"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/product-insights"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/product-insights"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/product-insights"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/product-insights"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/product-insights"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/product-insights"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "de-DE/social-listening"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "social-listening"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/social-listening"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/social-listening"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/social-listening"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/social-listening"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/social-listening"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/social-listening"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/social-listening"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/social-listening"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "smart-compliance"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "de-DE/content-marketing"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "content-marketing"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/content-marketing"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/content-marketing"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/content-marketing"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/content-marketing"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/content-marketing"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/content-marketing"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/content-marketing"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/content-marketing"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "de-DE/marketing-analytics"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "marketing-analytics"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/marketing-analytics"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/marketing-analytics"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/marketing-analytics"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/marketing-analytics"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/marketing-analytics"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/marketing-analytics"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/marketing-analytics"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/marketing-analytics"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "de-DE/digital-marketing"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "digital-marketing"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/digital-marketing"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/digital-marketing"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/digital-marketing"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/digital-marketing"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/digital-marketing"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/digital-marketing"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/digital-marketing"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/digital-marketing"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "de-DE/social-advertising"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "social-advertising"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/social-advertising"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/social-advertising"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/social-advertising"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/social-advertising"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/social-advertising"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/social-advertising"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/social-advertising"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/social-advertising"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "de-DE/online-communities"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "online-communities"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/online-communities"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/online-communities"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/online-communities"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/online-communities"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/online-communities"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/online-communities"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/online-communities"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/online-communities"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "de-DE/customer-self-service"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "customer-self-service"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/customer-self-service"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/customer-self-service"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/customer-self-service"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/customer-self-service"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/customer-self-service"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/customer-self-service"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/customer-self-service"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/customer-self-service"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "outbound-call-center"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "de-DE/customer-surveys"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "customer-surveys"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/customer-surveys"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/customer-surveys"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/customer-surveys"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/customer-surveys"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/customer-surveys"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/customer-surveys"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/customer-surveys"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/customer-surveys"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "de-DE/live-chat"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "live-chat"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/live-chat"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/live-chat"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/live-chat"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/live-chat"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/live-chat"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/live-chat"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/live-chat"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/live-chat"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "de-DE/call-center"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "call-center"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/call-center"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/call-center"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/call-center"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/call-center"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/call-center"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/call-center"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/call-center"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/call-center"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "de-DE/contact-center-intelligence"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "contact-center-intelligence"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/contact-center-intelligence"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/contact-center-intelligence"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/contact-center-intelligence"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/contact-center-intelligence"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/contact-center-intelligence"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/contact-center-intelligence"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/contact-center-intelligence"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/contact-center-intelligence"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "de-DE/customer-satisfaction"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "customer-satisfaction"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/customer-satisfaction"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/customer-satisfaction"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/customer-satisfaction"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/customer-satisfaction"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/customer-satisfaction"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/customer-satisfaction"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/customer-satisfaction"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/customer-satisfaction"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "de-DE/contact-center"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "contact-center"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/contact-center"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/contact-center"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/contact-center"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/contact-center"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/contact-center"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/contact-center"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/contact-center"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/contact-center"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "asset-manager"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "calendar"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "listening-benchmarking-insights"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "social-advanced-plan"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "de-DE/social-advanced-plan"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/social-advanced-plan"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "de-DE/18-5-spring-2023"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "18-5-spring-2023"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/18-5-spring-2023"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/18-5-spring-2023"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/18-5-spring-2023"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/18-5-spring-2023"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/18-5-spring-2023"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/18-5-spring-2023"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/18-5-spring-2023"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/18-5-spring-2023"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "workforce-management-b"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "finance-and-insurance-brand"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "publisher"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "inbox"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "reporting"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "industries/cpg"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "liveperson-alternative"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "de-DE/products/consumer-intelligence"
+    },
+    "locale": "de-DE"
+  },
+  {
+    "params": {
+      "slug": "products/consumer-intelligence"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "en-GB/products/consumer-intelligence"
+    },
+    "locale": "en-GB"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/products/consumer-intelligence"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "ja-JP/products/consumer-intelligence"
+    },
+    "locale": "ja-JP"
+  },
+  {
+    "params": {
+      "slug": "pt-BR/products/consumer-intelligence"
+    },
+    "locale": "pt-BR"
+  },
+  {
+    "params": {
+      "slug": "es-001/products/consumer-intelligence"
+    },
+    "locale": "es-001"
+  },
+  {
+    "params": {
+      "slug": "en-SG/products/consumer-intelligence"
+    },
+    "locale": "en-SG"
+  },
+  {
+    "params": {
+      "slug": "ko/products/consumer-intelligence"
+    },
+    "locale": "ko"
+  },
+  {
+    "params": {
+      "slug": "en-AU/products/consumer-intelligence"
+    },
+    "locale": "en-AU"
+  },
+  {
+    "params": {
+      "slug": "cx-connect-london-on-demand-recording"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "cx-connect-london"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "app-login-new"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "cmo-reports-outsmart-adversity"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "booking.com"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "contact-center-quality-management"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "cx-connect-paris"
+    },
+    "locale": "en-US"
+  },
+  {
+    "params": {
+      "slug": "fr-FR/cx-connect-paris"
+    },
+    "locale": "fr-FR"
+  },
+  {
+    "params": {
+      "slug": "app-login-internal"
+    },
+    "locale": "en-US"
+  }
+]

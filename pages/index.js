@@ -1,43 +1,23 @@
-import Container from '../components/container'
-import MoreStories from '../components/more-stories'
-import HeroPost from '../components/hero-post'
-import Intro from '../components/intro'
-import Layout from '../components/layout'
-import { getAllPostsForHome } from '../lib/api'
-import Head from 'next/head'
-import { CMS_NAME } from '../lib/constants'
+import React from "react";
+import Image from "next/image";
 
-export default function Index({ preview, allPosts }) {
-  const heroPost = allPosts[0]
-  const morePosts = allPosts.slice(1)
+const index = () => {
   return (
-    <>
-      <Layout preview={preview}>
-        <Head>
-          <title>{`Next.js Blog Example with ${CMS_NAME}`}</title>
-        </Head>
-        <Container>
-          <Intro />
-          {heroPost && (
-            <HeroPost
-              title={heroPost.title}
-              coverImage={heroPost.coverImage}
-              date={heroPost.date}
-              author={heroPost.author}
-              slug={heroPost.slug}
-              excerpt={heroPost.excerpt}
-            />
-          )}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
-        </Container>
-      </Layout>
-    </>
-  )
-}
+    <div>
+      <h3>Home Page</h3>
+      <Image
+        src="https://images.ctfassets.net/ukazlt65o6hl/6cWIgfzuITiAzJDKPVzDe7/4e9d3d639759c66be5deb4b0d70e88ba/Group_1000003569.jpg"
+        alt="image"
+        width={500}
+        height={500}
+        loader={({ src, width, quality }) => {
+          return src + "?w=" + width;
+        }}
+        placeholder="blur"
+        blurDataURL="https://images.ctfassets.net/ukazlt65o6hl/4W7L7kJFo1uZV9LytxpGpS/54f82f4f2d23544834da69e56a6c7279/social_adv_lp_banner.png"
+      />
+    </div>
+  );
+};
 
-export async function getStaticProps({ preview = false }) {
-  const allPosts = (await getAllPostsForHome(preview)) ?? []
-  return {
-    props: { preview, allPosts },
-  }
-}
+export default index;
