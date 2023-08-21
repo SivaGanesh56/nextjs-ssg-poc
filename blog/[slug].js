@@ -1,8 +1,8 @@
-import { gqlClient } from "../../lib/api";
+import { gqlClient } from "../lib/api";
 import {
   FETCH_BLOG_POST_PAGES,
   FETCH_BLOG_POST_PAGE_CONTENT,
-} from "../../lib/queries";
+} from "../lib/queries";
 
 export default function Page({ content }) {
   const {
