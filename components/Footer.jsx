@@ -2,12 +2,12 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-900 text-white flex-shrink-0">
+    <footer className="bg-gray-600 text-white flex-shrink-0">
       <div className="container mx-auto py-8 px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div>
             <img
-              src="https://www.sprinklr.com/wp-content/themes/sprinklr/assets/images/logo.svg"
+              src="https://www.sprinklr.com/favicon-32x32.png?v=3105ca52bb3502e13ef7cf334fffe9da"
               alt="Sprinklr Logo"
               className="w-12 h-auto"
             />

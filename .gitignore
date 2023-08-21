@@ -195,3 +195,7 @@ package-lock.json
 
 
 next/
+
+public/
+
+robots.tsx
