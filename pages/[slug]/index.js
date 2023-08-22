@@ -1,7 +1,19 @@
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+import SEO from "../../components/SEO";
 import { makeStaticProps } from "../../lib/getStatic";
 
 export default function Page() {
-  return <div>Home Page</div>;
+  return (
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <SEO />
+      <main className="flex-grow m-20">
+        <h5>Welcome to Sprinklr</h5>
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
 export const getStaticProps = makeStaticProps(async function callback() {
