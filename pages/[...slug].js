@@ -1,4 +1,6 @@
 import { useTranslation } from "next-i18next";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 import SEO from "../components/SEO";
 
@@ -15,11 +17,15 @@ export default function Page({ content, locale }) {
   const { t } = useTranslation("common");
 
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
+      <Header />
       <SEO />
-      <h4>{t("Page Template")}</h4>
-      <h5>Locale - {locale}</h5>
-      <h5>Page - {content?.name}</h5>
+      <main className="flex-grow m-20">
+        <h4>{t("Page Template")}</h4>
+        <h5>Locale - {locale}</h5>
+        <h5>Page - {content?.name}</h5>
+      </main>
+      <Footer />
     </div>
   );
 }
