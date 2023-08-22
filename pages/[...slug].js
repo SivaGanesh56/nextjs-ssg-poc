@@ -39,8 +39,7 @@ export async function getStaticPaths() {
       translations: { languagesToRenderIn },
     } = curr;
 
-    // const languages = languagesToRenderIn ?? ["en-US"];
-    const languages = ["en-US"];
+    const languages = languagesToRenderIn ?? ["en-US"];
 
     const localePaths = languages.reduce((acc, lang) => {
       const locale = translationVariableLookup[lang];
@@ -53,7 +52,7 @@ export async function getStaticPaths() {
   }, []);
 
   return {
-    paths: paths,
+    paths: paths.slice(0, 10),
     fallback: false,
   };
 }
