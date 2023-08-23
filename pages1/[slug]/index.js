@@ -1,7 +1,6 @@
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import SEO from "../../components/SEO";
-import { makeStaticProps } from "../../lib/getStatic";
 
 export default function Page() {
   return (
@@ -16,9 +15,11 @@ export default function Page() {
   );
 }
 
-export const getStaticProps = makeStaticProps(async function callback() {
-  return {};
-});
+export function getStaticProps() {
+  return {
+    props: {},
+  };
+}
 
 export function getStaticPaths() {
   const paths = [

@@ -52,7 +52,7 @@ export async function getStaticPaths() {
   }, []);
 
   return {
-    paths: paths.slice(0, 10),
+    paths: paths.slice(0, 30),
     fallback: false,
   };
 }
