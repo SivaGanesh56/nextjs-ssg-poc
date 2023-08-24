@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import RichText from "../components/RichText";
 import { makeStaticProps } from "../lib/getStatic";
 import { useTranslation } from "next-i18next";
 import Header from "../components/Header";
@@ -25,7 +24,6 @@ const index = () => {
           placeholder="blur"
           blurDataURL="https://images.ctfassets.net/ukazlt65o6hl/4W7L7kJFo1uZV9LytxpGpS/54f82f4f2d23544834da69e56a6c7279/social_adv_lp_banner.png"
         />
-        <RichText />
       </main>
       <Footer />
     </div>

@@ -1,0 +1,36 @@
+import React from 'react';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '../../components/ui/tabs';
+import RichText from '../../components/RichText';
+import FloatingImage from '../../components/FloatingImage';
+
+
+const TabbedCarousal = ({ tabItem }) => {
+  const tabs = tabItem.map(tab => tab.tabName);
+  return (
+    <div className="flex flex-col items-center mb-32 md:mb-32 mt-6 md:mt-10 w-full px-16 md:px-10 ">
+      <Tabs defaultValue={tabs[0]} className="w-[400px]">
+        <TabsList>
+          {tabs.map(tab => <TabsTrigger key={tab} value={tab}>{tab}</TabsTrigger>)}
+        </TabsList>
+        {
+          tabItem.map(tab => <TabsContent key={tab.tabName} value={tab.tabName}>
+            <div className="flex flex-row h-500 p-y-20">
+              <div className="flex flex-col flex-40 flex-grow-0 flex-shrink-0 space-y-16 pl-36 justify-center">
+                <h2 className="font-bold text-3xl leading-7 max-w-350">
+                  {tab.title}
+                </h2>
+                <div className="text-base leading-6 text-darkGrey max-w-350">
+                  <RichText richText={tab.descriptionText} />
+                </div>
+                <FloatingImage image={tab.image} />
+              </div>
+            </div>
+          </TabsContent>)
+        }
+      </Tabs>
+    </div>
+
+  )
+}
+
+export default TabbedCarousal;

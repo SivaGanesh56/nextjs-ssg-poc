@@ -1,8 +1,11 @@
 import React from "react";
 import Footer from "../../../components/Footer";
 import Header from "../../../components/Header";
-import { getBlogPages, getBlogPostPage } from "../../../lib/api";
+import RichText from "../../../components/RichText";
+import { getBlogPages } from "../../../lib/api";
+import { getEntry } from "../../../lib/contentful";
 import { makeStaticProps } from "../../../lib/getStatic";
+import { translationVariableLookup } from "../../../utils";
 
 const BlogPostPage = (props) => {
   return (
@@ -11,6 +14,9 @@ const BlogPostPage = (props) => {
       <main className="flex-grow m-20">
         <h3>Blog Post Page</h3>
         <h5>Title - {props?.blogPageData?.blogPostTitle}</h5>
+        <div className="my-2">
+          <RichText richText={props?.blogPageData?.blogPostBody} />
+        </div>
       </main>
       <Footer />
     </div>
@@ -28,7 +34,7 @@ export const getStaticProps = makeStaticProps(async function callback(context) {
     };
   }
 
-  const blogPageData = await getBlogPostPage(blogPage.sys.id, locale);
+  const blogPageData = await getEntry(blogPage.sys.id, locale);
 
   return {
     locale,
@@ -37,24 +43,27 @@ export const getStaticProps = makeStaticProps(async function callback(context) {
 });
 
 export const getStaticPaths = async () => {
-  const locales = ["en-US", "fr-FR", "ja-JP", "es-001", "de-DE", "pt-BR"];
+  const pages = await getBlogPages();
 
-  const slugs = await getBlogPages();
+  const paths = pages.reduce((acc, curr) => {
+    const {
+      slug,
+      translations: { languagesToRenderIn },
+    } = curr;
 
-  const paths = locales.flatMap((locale) => {
-    return slugs.map((item) => {
-      return {
-        params: {
-          locale,
-          slug: item.slug,
-        },
-      };
-    });
-  });
+    const languages = languagesToRenderIn ?? ["en-US"];
+
+    const localePaths = languages.reduce((acc, lang) => {
+      const locale = translationVariableLookup[lang];
+      return [...acc, { params: { slug, locale } }];
+    }, []);
+
+    return [...acc, ...localePaths];
+  }, []);
 
   return {
     fallback: false,
-    paths,
+    paths: paths.slice(0, 5),
   };
 };
 

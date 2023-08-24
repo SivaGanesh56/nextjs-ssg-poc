@@ -1,12 +1,14 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{js,jsx}',
-    './components/**/*.{js,jsx}',
-    './app/**/*.{js,jsx}',
-    './src/**/*.{js,jsx}',
-	],
+    "./pages/**/*.{js,jsx,ts,tsx}",
+    "./components/**/*.{js,jsx,ts,tsx}",
+    "./app/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
     container: {
       center: true,
@@ -15,7 +17,12 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+
     extend: {
+      colors: {
+        ...colors,
+        primary: "#107EFF",
+      },
       keyframes: {
         "accordion-down": {
           from: { height: 0 },
@@ -33,4 +40,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};

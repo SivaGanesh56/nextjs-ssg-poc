@@ -3,7 +3,7 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import SEO from "../../components/SEO";
 
-import { getPage, getPages } from "../../lib/contentful";
+import { getEntry, getPages } from "../../lib/contentful";
 import { makeStaticProps } from "../../lib/getStatic";
 
 import { translationVariableLookup } from "../../utils";
@@ -49,7 +49,7 @@ export async function getStaticPaths() {
   }, []);
 
   return {
-    paths: paths.slice(0, 20),
+    paths: paths.slice(0, 5),
     fallback: false,
   };
 }
@@ -67,7 +67,7 @@ export const getStaticProps = makeStaticProps(async function ({ params }) {
       notFound: true,
     };
 
-  const pageData = await getPage(page.sys.id, locale);
+  const pageData = await getEntry(page.sys.id, locale);
 
   return {
     content: pageData,

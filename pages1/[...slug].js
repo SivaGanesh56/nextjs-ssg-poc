@@ -4,7 +4,7 @@ import Header from "../components/Header";
 
 import SEO from "../components/SEO";
 
-import { getPage, getPages } from "../lib/contentful";
+import { getEntry, getPages } from "../lib/contentful";
 import { makeStaticProps } from "../lib/getStatic";
 
 import {
@@ -70,7 +70,7 @@ export const getStaticProps = makeStaticProps(async function ({ params }) {
       notFound: true,
     };
 
-  const pageData = await getPage(page.sys.id, locale);
+  const pageData = await getEntry(page.sys.id, locale);
 
   return {
     content: pageData,

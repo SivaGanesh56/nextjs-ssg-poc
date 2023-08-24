@@ -28,7 +28,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "templates/tabbedCarousal/TabbedCarousal.jsx"  ],
   "exclude": [
     "node_modules"
   ]

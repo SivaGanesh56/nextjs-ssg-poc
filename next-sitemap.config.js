@@ -14,4 +14,5 @@ module.exports = {
     };
   },
   output: "static",
+  outDir: "out",
 };

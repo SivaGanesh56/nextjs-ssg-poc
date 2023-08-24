@@ -1,55 +1,22 @@
 import React from 'react';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
+import { extractAttributesFromElement } from '../utils/iframe.utils'
 
-const document = {
-    "data": {},
-    "content": [
-        {
-            "data": {},
-            "content": [
-                {
-                    "data": {},
-                    "marks": [
-                        {
-                            "type": "bold"
-                        }
-                    ],
-                    "value": "CX Connect: \n",
-                    "nodeType": "text"
-                },
-                {
-                    "data": {},
-                    "marks": [
-                        {
-                            "type": "bold"
-                        }
-                    ],
-                    "value": "viaggio nel futuro \ndella Customer Experience",
-                    "nodeType": "text"
-                }
-            ],
-            "nodeType": "heading-2"
-        },
-        {
-            "data": {},
-            "content": [
-                {
-                    "data": {},
-                    "marks": [],
-                    "value": "",
-                    "nodeType": "text"
-                }
-            ],
-            "nodeType": "paragraph"
-        }
-    ],
-    "nodeType": "document"
-};
-
-const RichText = () => {
-    return documentToReactComponents(document, {
+const RichText = ({ richText }) => {
+    return documentToReactComponents(richText, {
         renderNode: {
-            "heading-2": (_node, children) => <h2 style={{ color: 'red' }}>{children}</h2>
+            "heading-2": (_node, children) => <h2 className='text-red-900 my-2'>{children}</h2>,
+            "embedded-entry-block": (node) => {
+                // add __typename check here
+                const { target } = node.data;
+
+                if (target?.iFrameText) {
+
+                    const attributes = extractAttributesFromElement(target?.iFrameText, target?.name);
+                    return <iframe className='w-full h-96 my-10' {...attributes} />
+                }
+                return null;
+            },
         }
     })
 }

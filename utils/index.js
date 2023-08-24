@@ -11,6 +11,7 @@ export const translationVariableLookup = {
   "English (en-AU)": "en-AU",
   "Italian (it)": "it",
   "Arabic (ar)": "ar",
+  "en-US": "en-US",
 };
 
 const supportedLocales = [
@@ -34,22 +35,30 @@ const localeRegex = new RegExp(`^(${localesPattern})\\/`, "i");
 
 export const removeLocale = (url = "") => url.replace(localeRegex, "");
 
-export function flattenAndOmitMetadataAndSys(obj) {
+export function flattenAndOmitMetadataAndSys(obj, contentType = null) {
   if (typeof obj !== "object" || !obj) {
     return obj;
   }
 
   if (Array.isArray(obj)) {
-    return obj.map(flattenAndOmitMetadataAndSys);
+    return obj.map((item) => flattenAndOmitMetadataAndSys(item, contentType));
   }
 
   const result = {};
+  if (obj.sys && obj.sys.contentType && obj.sys.contentType.sys) {
+    contentType = obj.sys.contentType.sys.id;
+  }
+
+  if (contentType) {
+    result.__typename = contentType;
+  }
+
   for (const key in obj) {
     if (key === "sys" || key === "metadata") continue;
     if (key === "fields") {
-      return flattenAndOmitMetadataAndSys(obj[key]);
+      return flattenAndOmitMetadataAndSys(obj[key], contentType);
     } else {
-      result[key] = flattenAndOmitMetadataAndSys(obj[key]);
+      result[key] = flattenAndOmitMetadataAndSys(obj[key], contentType);
     }
   }
 
