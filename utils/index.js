@@ -35,16 +35,17 @@ const localeRegex = new RegExp(`^(${localesPattern})\\/`, "i");
 
 export const removeLocale = (url = "") => url.replace(localeRegex, "");
 
-export function flattenAndOmitMetadataAndSys(obj, contentType = null) {
+export function flattenAndOmitMetadataAndSys(obj) {
   if (typeof obj !== "object" || !obj) {
     return obj;
   }
 
   if (Array.isArray(obj)) {
-    return obj.map((item) => flattenAndOmitMetadataAndSys(item, contentType));
+    return obj.map((item) => flattenAndOmitMetadataAndSys(item));
   }
 
   const result = {};
+  let contentType = null;
   if (obj.sys && obj.sys.contentType && obj.sys.contentType.sys) {
     contentType = obj.sys.contentType.sys.id;
   }
@@ -56,9 +57,10 @@ export function flattenAndOmitMetadataAndSys(obj, contentType = null) {
   for (const key in obj) {
     if (key === "sys" || key === "metadata") continue;
     if (key === "fields") {
-      return flattenAndOmitMetadataAndSys(obj[key], contentType);
+      const output = flattenAndOmitMetadataAndSys(obj[key]);
+      return { __typename: contentType, ...output };
     } else {
-      result[key] = flattenAndOmitMetadataAndSys(obj[key], contentType);
+      result[key] = flattenAndOmitMetadataAndSys(obj[key]);
     }
   }
 

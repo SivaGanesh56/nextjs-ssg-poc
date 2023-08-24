@@ -3,7 +3,7 @@ import Link from "next/link";
 // import { CallToAction } from "@sprinklr/shared-lib";
 import { HighlightedText } from "./HighlightedText";
 import { makeFeaturePageSlug } from "../utils/helpers";
-import Image from "next/image";
+import Icon from "./Icon";
 
 const FeatureInfo = ({
   title,
@@ -34,15 +34,7 @@ const FeatureInfo = ({
               {product.productName}
             </p>
           </Link>
-          <Image
-            src="/static/icons/arrow.svg"
-            alt="Arrow"
-            width={20}
-            height={20}
-            loader={({ src, width, quality }) => {
-              return src + "?w=" + width;
-            }}
-          />
+          <Icon icon={"arrow"} title="Arrow" width={20} height={20} />
           <p className="text-xs font-semibold tracking-wide text-sprText02 text-blue-400">
             {name}
           </p>

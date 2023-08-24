@@ -7,7 +7,6 @@ import { makeStaticProps } from "../../../lib/getStatic";
 
 import { translationVariableLookup } from "../../../utils";
 import FeatureInfo from "../../../components/FeatureInfo";
-import TabbedCarousal from "../../../templates/tabbedCarousal/TabbedCarousal";
 import TemplateRenderer from "../../../templates/TemplateRenderer";
 
 export default function Page({ content, locale }) {

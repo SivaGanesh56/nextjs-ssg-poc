@@ -6,16 +6,15 @@ const RichText = ({ richText }) => {
     return documentToReactComponents(richText, {
         renderNode: {
             "heading-2": (_node, children) => <h2 className='text-red-900 my-2'>{children}</h2>,
-            "embedded-entry-block": (node) => {
-                // add __typename check here
+            "embedded-entry-block": (node, children) => {
                 const { target } = node.data;
 
-                if (target?.iFrameText) {
+                if (target?.__typename === "iFrame") {
 
                     const attributes = extractAttributesFromElement(target?.iFrameText, target?.name);
                     return <iframe className='w-full h-96 my-10' {...attributes} />
                 }
-                return null;
+                return children;
             },
         }
     })

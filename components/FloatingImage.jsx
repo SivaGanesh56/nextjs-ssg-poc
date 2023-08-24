@@ -40,7 +40,7 @@ const FloatingImage = ({
                     src={image?.file?.url}
                     height={image?.file?.details?.image?.height}
                     width={image?.file?.details?.image?.width}
-                    altTitle={image.title ?? image.description}
+                    alt={image.title ?? image.description}
                     loader={({ src, width, quality }) => {
                         return src + "?w=" + width;
                     }}

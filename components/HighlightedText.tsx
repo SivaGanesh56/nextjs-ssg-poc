@@ -12,8 +12,6 @@ type Props = {
 export const HighlightedText = ({
   children,
   boxClass = "",
-  textClass = "",
-  as = "div",
   startEnhancer,
 }: Props): ReactElement => {
   const formattedText = useMemo(() => formatText(children), [children]);
@@ -22,7 +20,7 @@ export const HighlightedText = ({
     <div className={`whitespace-pre-wrap ${boxClass}`}>
       {startEnhancer}
       {formattedText.map(({ content, token }, idx) => (
-        <span key={idx} className={`${textClass} text-${token}`}>
+        <span key={`${token}-${idx}`} className={`text-${token}`}>
           {content}
         </span>
       ))}
