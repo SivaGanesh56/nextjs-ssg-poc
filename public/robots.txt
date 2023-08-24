@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://sprinklr.com
+
+# Sitemaps
+Sitemap: https://sprinklr.com/sitemap.xml
