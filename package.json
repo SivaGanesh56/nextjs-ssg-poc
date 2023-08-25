@@ -52,6 +52,8 @@
     "contentful-import": "^7.8.7",
     "next-sitemap": "^4.2.2",
     "postcss": "8.4.5",
+    "prettier": "^3.0.2",
+    "prettier-plugin-tailwindcss": "^0.5.3",
     "tailwindcss": "^3.0.15",
     "typescript": "5.1.6"
   }

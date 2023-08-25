@@ -16,7 +16,7 @@ export const formatText = (unFormattedText: string) => {
     }
     result.push({
       content: match[2],
-      token:  match[1],
+      token:  match[1] ? `text-${match[1]}` : undefined,
     });
     startIndex = startIndex + match[0].length;
   }

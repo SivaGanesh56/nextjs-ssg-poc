@@ -19,8 +19,9 @@ export const HighlightedText = ({
   return (
     <div className={`whitespace-pre-wrap ${boxClass}`}>
       {startEnhancer}
+      <span className="text-primary"> Reduce costs by 50% </span>
       {formattedText.map(({ content, token }, idx) => (
-        <span key={`${token}-${idx}`} className={`text-${token}`}>
+        <span key={`${token}-${idx}`} className={token}>
           {content}
         </span>
       ))}

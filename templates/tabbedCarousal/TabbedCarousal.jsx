@@ -1,7 +1,7 @@
 import React from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../../components/ui/tabs';
 import RichText from '../../components/RichText';
-import FloatingImage from '../../components/FloatingImage';
+
 
 
 const TabbedCarousal = ({ tabItem }) => {
@@ -14,17 +14,18 @@ const TabbedCarousal = ({ tabItem }) => {
         </TabsList>
         {
           tabItem.map(tab => <TabsContent key={tab.tabName} value={tab.tabName}>
-            <div className="flex flex-row h-500 p-y-20">
-              <div className="flex flex-col flex-40 flex-grow-0 flex-shrink-0 space-y-16 pl-36 justify-center">
-                <h2 className="font-bold text-3xl leading-7 max-w-350">
+            <div className="flex flex-row h-500 py-20">
+              <div className="flex flex-col w-40 flex-grow-0 flex-shrink-0 gap-4 pl-36 justify-center">
+                <h2 className="font-bold text-3xl leading-7 max-w-[350px]">
                   {tab.title}
                 </h2>
-                <div className="text-base leading-6 text-darkGrey max-w-350">
+                <div className="text-base leading-6 text-darkGrey w-[100%] max-w-[100px] text-red-700">
                   <RichText richText={tab.descriptionText} />
                 </div>
-                <FloatingImage image={tab.image} />
               </div>
+
             </div>
+
           </TabsContent>)
         }
       </Tabs>
