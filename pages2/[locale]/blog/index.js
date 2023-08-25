@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../../../components/Footer";
 import Header from "../../../components/Header";
+import { getStaticPaths, makeStaticProps } from "../../../lib/getStatic";
 
 const BlogPage = () => {
   return (
@@ -13,5 +14,9 @@ const BlogPage = () => {
     </div>
   );
 };
+
+export const getStaticProps = makeStaticProps(async function callback() {});
+
+export { getStaticPaths };
 
 export default BlogPage;

@@ -10,6 +10,7 @@ import {
     NavigationMenuTrigger,
 
 } from './ui/navigation-menu'
+import Link from 'next/link';
 
 
 const Header1 = () => {
@@ -79,9 +80,9 @@ const Header = () => {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <NavigationMenuLink href='#' className='hover:text-blue-500'>
+                    <Link href={'/unified-cxm'} className='hover:text-blue-500'>
                         Unified-CXM
-                    </NavigationMenuLink>
+                    </Link>
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>

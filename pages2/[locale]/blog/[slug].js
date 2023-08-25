@@ -63,7 +63,7 @@ export const getStaticPaths = async () => {
 
   return {
     fallback: false,
-    paths: paths,
+    paths: paths.slice(0, 5),
   };
 };
 
