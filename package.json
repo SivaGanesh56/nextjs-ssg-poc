@@ -41,7 +41,6 @@
     "react-query": "^3.39.3",
     "react-use": "^17.4.0",
     "rosetta": "^1.1.0",
-    "s3-sync-client": "^4.3.1",
     "tailwind-merge": "^1.14.0",
     "tailwindcss-animate": "^1.0.6"
   },
