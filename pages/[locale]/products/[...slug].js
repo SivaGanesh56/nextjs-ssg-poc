@@ -11,7 +11,8 @@ import TemplateRenderer from "../../../templates/TemplateRenderer";
 
 export default function Page({ content, locale }) {
   const { t } = useTranslation("common");
-  const { name, product, title, description, media, ctas, ...rest } = content;
+  const { name, product, title, description, media, ctas, ...rest } =
+    content || {};
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -25,7 +26,7 @@ export default function Page({ content, locale }) {
           media={media}
           ctas={ctas}
         />
-        <TemplateRenderer templates={rest.templates} />
+        <TemplateRenderer templates={rest?.templates || []} />
       </main>
       <Footer />
     </div>
@@ -60,7 +61,7 @@ export async function getStaticPaths() {
   }, []);
 
   return {
-    paths: paths.slice(0, 5),
+    paths: paths,
     fallback: false,
   };
 }
@@ -71,12 +72,15 @@ export const getStaticProps = makeStaticProps(async function ({ params }) {
 
   const pages = await getProductPages();
 
-  const page = pages.find((p) => p.slug === slug);
+  const page = pages.find(
+    (p) => p.slug === slug || p.slug === `/${slug}` || p.slug === `${slug}/`
+  );
 
-  if (!page)
+  if (!page) {
     return {
       notFound: true,
     };
+  }
 
   const pageData = await getEntry(page.sys.id, locale);
 

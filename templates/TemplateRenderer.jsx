@@ -4,7 +4,7 @@ import { templatesMap } from '.'
 const TemplateRenderer = ({ templates }) => {
     return (
         <div>
-            {templates.map((template, idx) => {
+            {templates && templates.map((template, idx) => {
                 const Template = templatesMap[template.__typename];
                 if (!Template) return null;
                 return <Template key={idx} {...template} />

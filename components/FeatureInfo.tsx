@@ -11,7 +11,10 @@ const FeatureInfo = ({
   media,
   ctas,
   name,
-  product,
+  product = {
+    productName: "",
+    slug: "",
+  },
 }: {
   title: string;
   description: string;
@@ -23,7 +26,7 @@ const FeatureInfo = ({
     slug: string;
   };
 }) => {
-  const productSlug = makeFeaturePageSlug({ productSlug: product.slug });
+  const productSlug = makeFeaturePageSlug({ productSlug: product?.slug });
 
   return (
     <div className="flex flex-col mb-32 md:mb-32 mt-6 md:mt-10 w-full px-16 md:px-32 ">
@@ -57,7 +60,13 @@ const FeatureInfo = ({
         </div>
       ) : null} */}
       <div className="w-full flex justify-center filter drop-shadow-lg">
-        <img src={media.asset?.file?.url} alt="" className="max-w-screen-xl" />
+        {media && (
+          <img
+            src={media?.asset?.file?.url}
+            alt=""
+            className="max-w-screen-xl"
+          />
+        )}
       </div>
     </div>
   );

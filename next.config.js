@@ -1,7 +1,8 @@
-/** @type {import('next').NextConfig} */
+require("dotenv").config();
 
+/** @type {import('next').NextConfig} */
 module.exports = {
-  // output: "export",
+  output: process.env.NEXT_MODE === "PREVIEW" ? "standalone" : "export",
   images: {
     loader: "custom",
   },
