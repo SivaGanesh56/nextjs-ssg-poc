@@ -1,8 +1,6 @@
 const fg = require("fast-glob");
 
-async function getStaticExportPages() {
-  const exportFolder = "out";
-
+async function getStaticExportPages(exportFolder) {
   // Get html file paths using glob
   const htmlFiles = await fg(`${exportFolder}/**/*.html`);
 
@@ -16,10 +14,4 @@ async function getStaticExportPages() {
   );
 }
 
-getStaticExportPages()
-  .then((staticPages) => {
-    console.log("Static Export Pages:", staticPages);
-  })
-  .catch((error) => {
-    console.error(error);
-  });
+module.exports = { getStaticExportPages };

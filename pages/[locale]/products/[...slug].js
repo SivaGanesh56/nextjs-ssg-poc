@@ -61,7 +61,7 @@ export async function getStaticPaths() {
   }, []);
 
   return {
-    paths: paths,
+    paths: paths.slice(0, 4),
     fallback: true,
   };
 }

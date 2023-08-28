@@ -1,11 +1,16 @@
 const fs = require("fs");
 const path = require("path");
 
-const outputDir = "out";
-
-function moveEnUsContents() {
-  const sourceDir = path.join(outputDir, "en-US");
+function moveFolder(outputDir, folder) {
+  const sourceDir = path.join(outputDir, folder);
   const destinationDir = outputDir;
+
+  if (!fs.existsSync(sourceDir)) {
+    console.log(
+      `Source directory '${sourceDir}' does not exist. Nothing to move.`
+    );
+    return;
+  }
 
   try {
     const items = fs.readdirSync(sourceDir);
@@ -21,4 +26,4 @@ function moveEnUsContents() {
   }
 }
 
-moveEnUsContents();
+module.exports = { moveFolder };
