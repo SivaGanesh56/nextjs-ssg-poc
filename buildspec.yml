@@ -3,13 +3,12 @@ phases:
   install:
     runtime-versions:
       nodejs: 14
-    commands:
-      - n 18 
   pre_build:
     commands:
       - yarn config set cache-folder .yarn
   build:
     commands:
+      - yarn install
       - yarn run build
   post_build:
     commands:
