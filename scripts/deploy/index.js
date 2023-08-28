@@ -219,8 +219,6 @@ async function deploy() {
         })
         .promise();
     }
-
-    console.log(objectsToRemove);
   } catch (error) {
     console.error("error while deploying", error);
   }
