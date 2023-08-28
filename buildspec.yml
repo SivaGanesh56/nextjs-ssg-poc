@@ -1,0 +1,28 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14
+    commands:
+      - n 18 
+  pre_build:
+    commands:
+      - yarn config set cache-folder .yarn
+  build:
+    commands:
+      - yarn run build
+  post_build:
+    commands:
+      - yarn build deploy
+artifacts:
+  files:
+    - '**/*'
+  secondary-artifacts:
+    website:
+      base-directory: out
+cache:
+  paths:
+    - .yarn/**/*
+    - .cache/**/*
+    - out/**/*
+    - node_modules/**/*
