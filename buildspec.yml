@@ -21,7 +21,5 @@ artifacts:
       base-directory: out
 cache:
   paths:
-    - .yarn/**/*
-    - out/**/*
-    - node_modules/**/*
+    - 'node_modules/**/*'
     - '.next/cache/**/*'
