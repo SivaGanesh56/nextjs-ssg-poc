@@ -1,3 +1,6 @@
+"use client";
+
+
 import React from 'react';
 import { Popover, PopoverContent, PopoverTrigger } from './ui/popover'
 import {
