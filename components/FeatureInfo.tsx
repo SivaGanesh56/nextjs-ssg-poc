@@ -6,6 +6,7 @@ import Link from "next/link";
 import { HighlightedText } from "./HighlightedText";
 import { makeFeaturePageSlug } from "../utils/helpers";
 import Icon from "./Icon";
+import { useTranslations } from "next-intl";
 
 const FeatureInfo = ({
   title,
@@ -29,6 +30,8 @@ const FeatureInfo = ({
   };
 }) => {
   const productSlug = makeFeaturePageSlug({ productSlug: product?.slug });
+
+  const t = useTranslations();
 
   return (
     <div className="flex flex-col mb-32 md:mb-32 mt-6 md:mt-10 w-full px-16 md:px-32 ">
@@ -70,6 +73,7 @@ const FeatureInfo = ({
           />
         )}
       </div>
+      <div>{t("test")}</div>
     </div>
   );
 };

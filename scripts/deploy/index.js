@@ -1,13 +1,12 @@
 // TODO: remove dotenv import, not required in production
 require("dotenv").config();
 const { moveFolder } = require("./moveFolder");
-const S3 = require("aws-sdk/clients/s3");
 const { getStaticExportPages } = require("./extractPages");
 const klaw = require("klaw");
 const { relative, join } = require("path");
 const fs = require("fs");
 const streamToPromise = require("stream-to-promise");
-const AWS = require("aws-sdk");
+const S3 = require('aws-sdk/clients/s3');
 const mime = require("mime");
 const { asyncify, parallelLimit } = require("async"); // download asyncify only
 const util = require("util");
@@ -42,12 +41,11 @@ const OBJECTS_TO_REMOVE_PER_REQUEST = 1000;
 
 const { AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY } = process.env || {};
 
-AWS.config.update({
-  accessKeyId: AWS_ACCESS_KEY_ID,
-  secretAccessKey: AWS_SECRET_ACCESS_KEY,
-});
+// AWS.config.update({
+//   accessKeyId: AWS_ACCESS_KEY_ID,
+//   secretAccessKey: AWS_SECRET_ACCESS_KEY,
+// });
 
-const s3 = new AWS.S3();
 
 const BUCKET_NAME = "nextjs-ssg-poc";
 
@@ -90,6 +88,8 @@ async function deploy() {
     if (routingRules.length) {
       websiteConfig.WebsiteConfiguration.RoutingRules = routingRules;
     }
+
+    const s3 = new S3({ })
 
     await s3.putBucketWebsite(websiteConfig).promise();
 

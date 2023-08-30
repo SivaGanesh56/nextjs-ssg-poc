@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 
 const Footer = () => {
@@ -59,5 +61,7 @@ const Footer = () => {
     </footer>
   );
 };
+
+Footer.displayName = "Footer";
 
 export default Footer;

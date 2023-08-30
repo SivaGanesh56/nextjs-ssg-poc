@@ -3,6 +3,7 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
 import { getDictionary } from "./dictionaries";
+import Test from "../../components/Test";
 
 const Page = async ({ params }) => {
   if (params.locale === "ko") notFound();
@@ -15,6 +16,7 @@ const Page = async ({ params }) => {
       <main className="flex-grow m-20">
         <h3>Home Page</h3>
         {t.Homepage?.helloWorld || "Hello"}
+        <Test />
       </main>
       <Footer />
     </div>

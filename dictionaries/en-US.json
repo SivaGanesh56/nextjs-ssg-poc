@@ -8,5 +8,6 @@
     "Header": {
         "home": "Home",
         "about": "About"
-    }
+    },
+    "test": "Translated Test"
 }

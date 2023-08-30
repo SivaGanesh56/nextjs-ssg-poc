@@ -1,6 +1,5 @@
 "use client";
 
-
 import React from 'react';
 import { Popover, PopoverContent, PopoverTrigger } from './ui/popover'
 import {
@@ -129,5 +128,7 @@ const Header = () => {
         </NavigationMenu>
     </header>
 }
+
+Header.displayName = "Header"
 
 export default Header;

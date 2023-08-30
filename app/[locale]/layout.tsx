@@ -3,6 +3,9 @@ import { ReactNode } from "react";
 
 import "../../styles/index.css";
 
+import { NextIntlClientProvider } from "next-intl";
+import { getDictionary } from "./dictionaries";
+
 type Props = {
   children: ReactNode;
   params: { locale: string };
@@ -14,10 +17,13 @@ export const metadata: Metadata = {
 };
 
 export default async function RootLayout({ children, params }: Props) {
+  const messages = await getDictionary(params.locale);
   return (
     <html lang={params.locale}>
       <body className="bg-gray-100" suppressHydrationWarning={true}>
-        {children}
+        <NextIntlClientProvider locale={params.locale} messages={messages}>
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );
