@@ -2,7 +2,7 @@ import "server-only";
 import _merge from 'lodash.merge';
 import _memoize from 'lodash.memoize';
 
-const dictionaries = {
+const messages = {
   fr: () =>
     import("../../dictionaries/fr.json").then((module) => module.default),
   "en-US": () =>
@@ -13,16 +13,12 @@ const dictionaries = {
     import("../../dictionaries/ja.json").then((module) => module.default),
 };
 
-const getDictionary = async (locale) => {
-  // const defaultBundle = await dictionaries["en"]();
-  // if (dictionaries[locale] && locale !== "en") {
-  //   const localeBundle = await dictionaries[locale]();
-  //   return _merge(defaultBundle, localeBundle);
-  // }
+const getDefaultMessage = () => messages['en-US'];
 
-  const localeBundle = await dictionaries[locale]();
-
-  return localeBundle;
+const getMessages = async (locale) => {
+  const messageLoader = messages[locale] || getDefaultMessage();
+  const bundle = await messageLoader();
+  return bundle;
 };
 
-export default _memoize(getDictionary);
+export default _memoize(getMessages);
