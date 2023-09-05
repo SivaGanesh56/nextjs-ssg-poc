@@ -24,22 +24,4 @@ const Page = async ({ params }) => {
 export const dynamicParams = false; // drive through env or maybe inject on demand
 // export const revalidate = 10; // only on preview
 
-export async function generateStaticParams() {
-  const locales = [
-    "en-US",
-    "fr",
-    "ja-JP",
-    "es-001",
-    "de-DE",
-    "pt-BR",
-    "en-GB",
-    "ko",
-    "en-SG",
-    "en-AU",
-    "it",
-    "ar",
-  ];
-  return locales.map((locale) => ({ locale }));
-}
-
 export default Page;

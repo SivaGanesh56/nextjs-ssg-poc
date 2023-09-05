@@ -13,15 +13,16 @@ const dictionaries = {
     import("../../dictionaries/ja.json").then((module) => module.default),
 };
 
- const getDictionary = async (locale) => {
-  const defaultBundle = await dictionaries["en-US"]();
-  if (dictionaries[locale] && locale !== 'en-US') {
-    const localeBundle = await dictionaries[locale]();
-    return _merge(defaultBundle, localeBundle );
-  }
-  
-  return defaultBundle;
-}
+const getDictionary = async (locale) => {
+  // const defaultBundle = await dictionaries["en"]();
+  // if (dictionaries[locale] && locale !== "en") {
+  //   const localeBundle = await dictionaries[locale]();
+  //   return _merge(defaultBundle, localeBundle);
+  // }
 
+  const localeBundle = await dictionaries[locale]();
+
+  return localeBundle;
+};
 
 export default _memoize(getDictionary);
