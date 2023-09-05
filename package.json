@@ -35,7 +35,7 @@
     "klaw": "^4.1.0",
     "lodash": "^4.17.21",
     "lucide-react": "^0.268.0",
-    "next": "latest",
+    "next": "13.4.16",
     "next-i18next": "^14.0.0",
     "next-intl": "^2.20.0",
     "next-seo": "^6.1.0",

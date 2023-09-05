@@ -1,11 +1,11 @@
 import { notFound } from "next/navigation";
-import FeatureInfo from "../../../../components/FeatureInfo";
-import Footer from "../../../../components/Footer";
-import Header from "../../../../components/Header";
-import ServerComponent from "../../../../components/ServerComponent";
-import { getEntry, getProductPages } from "../../../../lib/contentful";
-import TemplateRenderer from "../../../../templates/TemplateRenderer";
-import { translationVariableLookup } from "../../../../utils";
+import FeatureInfo from "../../../components/FeatureInfo";
+import Footer from "../../../components/Footer";
+import Header from "../../../components/Header";
+import ServerComponent from "../../../components/ServerComponent";
+import { getEntry, getProductPages } from "../../../lib/contentful";
+import TemplateRenderer from "../../../templates/TemplateRenderer";
+import { translationVariableLookup } from "../../../utils";
 
 export default async function Page({ params }) {
   const { name, product, title, description, media, ctas, ...rest } =
