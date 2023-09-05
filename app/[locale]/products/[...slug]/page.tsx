@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import FeatureInfo from "../../../../components/FeatureInfo";
 import Footer from "../../../../components/Footer";
 import Header from "../../../../components/Header";
+import ServerComponent from "../../../../components/ServerComponent";
 import { getEntry, getProductPages } from "../../../../lib/contentful";
 import TemplateRenderer from "../../../../templates/TemplateRenderer";
 import { translationVariableLookup } from "../../../../utils";
@@ -23,6 +24,7 @@ export default async function Page({ params }) {
           ctas={ctas}
         />
         <TemplateRenderer templates={rest?.templates || []} />
+        <ServerComponent />
       </main>
       <Footer />
     </div>
@@ -32,31 +34,31 @@ export default async function Page({ params }) {
 export async function generateStaticParams() {
   const pages = await getProductPages();
 
-  return pages
-    .reduce((acc, curr) => {
-      const {
-        slug,
-        categorySlug,
-        translations: { languagesToRenderIn },
-      } = curr;
+  const params = pages.reduce((acc, curr) => {
+    const {
+      slug,
+      categorySlug,
+      translations: { languagesToRenderIn },
+    } = curr;
 
-      const languages = languagesToRenderIn ?? ["en-US"];
+    const languages = languagesToRenderIn ?? ["en-US"];
 
-      const localePaths = languages.reduce((acc, lang) => {
-        const locale = translationVariableLookup[lang];
-        const path = `${categorySlug}/${slug}/`;
+    const localePaths = languages.reduce((acc, lang) => {
+      const locale = translationVariableLookup[lang];
+      const path = `${categorySlug}/${slug}/`;
 
-        let resolvedSlug = path.replace(/\/\/+/g, "/");
-        resolvedSlug = resolvedSlug.replace(/\/?$/, "/");
-        return [
-          ...acc,
-          { slug: resolvedSlug.split("/").filter(Boolean), locale },
-        ];
-      }, []);
+      let resolvedSlug = path.replace(/\/\/+/g, "/");
+      resolvedSlug = resolvedSlug.replace(/\/?$/, "/");
+      return [
+        ...acc,
+        { slug: resolvedSlug.split("/").filter(Boolean), locale },
+      ];
+    }, []);
 
-      return [...acc, ...localePaths];
-    }, [])
-    .slice(0, 5);
+    return [...acc, ...localePaths];
+  }, []);
+
+  return params.slice(0, 5);
 }
 
 async function getData({ locale, slug }): Promise<any> {

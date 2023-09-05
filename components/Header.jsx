@@ -107,13 +107,16 @@ const Header = () => {
                         <PopoverContent>
                             <ul>
                                 <li>
+                                    <a href="/en-US" className="hover:text-blue-300">English</a>
+                                </li>
+                                <li>
                                     <a href="/it" className="hover:text-blue-300">Italy</a>
                                 </li>
                                 <li>
                                     <a href="/ja-JP" className="hover:text-blue-300">Japan</a>
                                 </li>
                                 <li>
-                                    <a href="/ja-JP" className="hover:text-blue-300">France</a>
+                                    <a href="/fr" className="hover:text-blue-300">France</a>
                                 </li>
                                 <li>
                                     <a href="/ja-JP" className="hover:text-blue-300">Germany</a>

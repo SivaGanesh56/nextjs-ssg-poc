@@ -130,14 +130,15 @@ async function deploy() {
 
           if (!objectUnchanged) {
             try {
-              const params = {
+
+              await s3.putObject({
                 Bucket: BUCKET_NAME,
                 Key: key,
                 Body: fs.createReadStream(path),
                 ContentType: mime.getType(path) ?? "application/octet-stream",
-              };
+              }).promise();
 
-              await s3.putObject(params).promise();
+              
               console.log(`uploaded ${path}`);
             } catch (error) {
               console.error("error while uploading file", error);

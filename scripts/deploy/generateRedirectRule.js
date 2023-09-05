@@ -34,4 +34,4 @@ const getRules = (routes) =>
     },
   }));
 
-module.exports = { getRules };
+

@@ -4,7 +4,7 @@
 import React from 'react';
 import { useTranslations } from 'next-intl'
 
-const Test = () => {
+const ClientComponent = () => {
     const t = useTranslations();
     return (
         <div>
@@ -13,6 +13,6 @@ const Test = () => {
     )
 }
 
-Test.displayName = "Test";
+ClientComponent.displayName = "ClientComponent";
 
-export default Test;
+export default ClientComponent;

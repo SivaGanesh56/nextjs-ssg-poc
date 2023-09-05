@@ -3,6 +3,7 @@ import React from "react";
 import Footer from "../../../../components/Footer";
 import Header from "../../../../components/Header";
 import RichText from "../../../../components/RichText";
+import ServerComponent from "../../../../components/ServerComponent";
 
 import { getBlogPages } from "../../../../lib/api";
 import { getEntry } from "../../../../lib/contentful";
@@ -19,6 +20,7 @@ const BlogPostPage = async ({ params }) => {
         <div className="my-2">
           <RichText richText={blogPostBody} />
         </div>
+        <ServerComponent />
       </main>
       <Footer />
     </div>
@@ -28,23 +30,23 @@ const BlogPostPage = async ({ params }) => {
 export async function generateStaticParams() {
   const pages = await getBlogPages();
 
-  return pages
-    .reduce((acc, curr) => {
-      const {
-        slug,
-        translations: { languagesToRenderIn },
-      } = curr;
+  const params = pages.reduce((acc, curr) => {
+    const {
+      slug,
+      translations: { languagesToRenderIn },
+    } = curr;
 
-      const languages = languagesToRenderIn ?? ["en-US"];
+    const languages = languagesToRenderIn ?? ["en-US"];
 
-      const localePaths = languages.reduce((acc, lang) => {
-        const locale = translationVariableLookup[lang];
-        return [...acc, { slug, locale }];
-      }, []);
+    const localePaths = languages.reduce((acc, lang) => {
+      const locale = translationVariableLookup[lang];
+      return [...acc, { slug, locale }];
+    }, []);
 
-      return [...acc, ...localePaths];
-    }, [])
-    .slice(0, 5);
+    return [...acc, ...localePaths];
+  }, []);
+
+  return params.slice(0, 5);
 }
 
 async function getData({ slug, locale }): Promise<any> {
