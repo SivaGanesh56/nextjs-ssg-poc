@@ -22,22 +22,24 @@ export default async function Page({ params }) {
 export async function generateStaticParams() {
   const pages = await getPages();
 
-  return pages.reduce((acc, curr) => {
-    const {
-      navSlug,
-      translations: { languagesToRenderIn },
-    } = curr;
+  return pages
+    .reduce((acc, curr) => {
+      const {
+        navSlug,
+        translations: { languagesToRenderIn },
+      } = curr;
 
-    const languages = languagesToRenderIn ?? ["en-US"];
+      const languages = languagesToRenderIn ?? ["en-US"];
 
-    const localePaths = languages.reduce((acc, lang) => {
-      const locale = translationVariableLookup[lang];
-      if (!locale || navSlug === "/") return acc;
-      return [...acc, { slug: navSlug.split("/").filter(Boolean), locale }];
-    }, []);
+      const localePaths = languages.reduce((acc, lang) => {
+        const locale = translationVariableLookup[lang];
+        if (!locale || navSlug === "/") return acc;
+        return [...acc, { slug: navSlug.split("/").filter(Boolean), locale }];
+      }, []);
 
-    return [...acc, ...localePaths];
-  }, []);
+      return [...acc, ...localePaths];
+    }, [])
+    .slice(0, 5);
 }
 
 async function getData({ locale, slug }): Promise<any> {

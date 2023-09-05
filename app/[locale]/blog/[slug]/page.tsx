@@ -46,7 +46,7 @@ export async function generateStaticParams() {
     return [...acc, ...localePaths];
   }, []);
 
-  return params;
+  return params.slice(0, 5);
 }
 
 async function getData({ slug, locale }): Promise<any> {
